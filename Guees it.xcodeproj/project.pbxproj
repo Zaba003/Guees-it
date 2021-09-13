@@ -21,6 +21,7 @@
 		D48FC95726EF4189003A34D3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FC95626EF4189003A34D3 /* ExtensionDelegate.swift */; };
 		D48FC95926EF4189003A34D3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FC95826EF4189003A34D3 /* ComplicationController.swift */; };
 		D48FC95B26EF418A003A34D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48FC95A26EF418A003A34D3 /* Assets.xcassets */; };
+		D48FC96B26EF4972003A34D3 /* filmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FC96A26EF4972003A34D3 /* filmModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		D48FC95826EF4189003A34D3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		D48FC95A26EF418A003A34D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D48FC95C26EF418A003A34D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48FC96A26EF4972003A34D3 /* filmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D48FC95426EF4189003A34D3 /* InterfaceController.swift */,
+				D48FC96A26EF4972003A34D3 /* filmModel.swift */,
 				D48FC95626EF4189003A34D3 /* ExtensionDelegate.swift */,
 				D48FC95826EF4189003A34D3 /* ComplicationController.swift */,
 				D48FC95A26EF418A003A34D3 /* Assets.xcassets */,
@@ -304,6 +307,7 @@
 				D48FC95726EF4189003A34D3 /* ExtensionDelegate.swift in Sources */,
 				D48FC95526EF4189003A34D3 /* InterfaceController.swift in Sources */,
 				D48FC95926EF4189003A34D3 /* ComplicationController.swift in Sources */,
+				D48FC96B26EF4972003A34D3 /* filmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

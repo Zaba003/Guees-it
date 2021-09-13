@@ -1,15 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Rectangle-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller backgroundImage="Rectangle" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Guees_it_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="0.90000000000000002" alignment="center" verticalAlignment="center" layout="vertical" id="hhd-aI-cPw">
+                            <items>
+                                <label width="1" alignment="center" verticalAlignment="center" text="Джентельмены удачи" textAlignment="center" numberOfLines="0" id="NXM-Ch-7mh">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <button width="1" alignment="left" verticalAlignment="center" title="🎩🍀" id="ORt-lf-1jm">
+                                    <fontDescription key="font" type="system" pointSize="26"/>
+                                    <connections>
+                                        <action selector="refreshAction" destination="AgC-eL-Hgc" id="Q6P-xq-u79"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="myButton" destination="ORt-lf-1jm" id="PXo-Ie-nGh"/>
+                        <outlet property="myLabel" destination="NXM-Ch-7mh" id="1jZ-5h-MF2"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="19" y="-21"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Rectangle" width="300" height="300"/>
+    </resources>
 </document>
